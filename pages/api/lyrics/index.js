@@ -9,7 +9,7 @@ function getTokenFromHeader(req) {
   return null;
 }
 
-module.exports = function handler(req, res) {
+export default function handler(req, res) {
   if (req.method === 'GET') {
     const list = readLyrics();
     return res.status(200).json(list);
