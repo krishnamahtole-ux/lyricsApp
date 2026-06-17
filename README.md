@@ -1,7 +1,10 @@
-<<<<<<< HEAD
 # Lyrics Admin App
 
 Minimal Next.js app providing a public lyrics browser and an admin panel.
+
+Live demo
+
+- https://lyrics-app-amber.vercel.app/
 
 Quick start
 
