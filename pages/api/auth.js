@@ -1,6 +1,6 @@
 const { createSession } = require('../../lib/sessions');
 
-module.exports = function handler(req, res) {
+export default function handler(req, res) {
   if (req.method !== 'POST') return res.status(405).end();
   const { password } = req.body || {};
   const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || 'admin';
