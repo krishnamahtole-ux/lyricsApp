@@ -1,5 +1,7 @@
 # Lyrics Admin App
 
+[![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=flat&logo=vercel)](https://lyrics-app-amber.vercel.app/)
+
 Minimal Next.js app providing a public lyrics browser and an admin panel.
 
 Live demo
